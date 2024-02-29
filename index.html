@@ -15,8 +15,12 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/custom.css" rel="stylesheet" />
     </head>
     <body id="page-top">
 
@@ -24,7 +28,7 @@
         <!-- NAVBAR-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="..." /></a>
+                <a class="navbar-brand" href="#page-top"><img src="assets/img/ea-logo2.svg" alt="..." /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
@@ -33,8 +37,8 @@
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Thérapies</a></li>
                         <li class="nav-item"><a class="nav-link" href="#about">Massages</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#team">Qui suis-je</a></li>
                         <li class="nav-item"><a class="nav-link" href="#services">Tarifs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#team">Qui suis-je</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -44,9 +48,11 @@
         <!-- MASTER HEADING -->
         <header class="masthead">
             <div class="container">
-                <div class="masthead-heading text-uppercase" style="color: black;">Par mains entrecroisées sur le tambourin de l'âme.</div>
-                <div class="masthead-subheading" style="color: black;">Accompagnement en thérapie brève ericksonnienne, hypnose clinique, approche psychocorporelle et massages mieux-être.</div>
+                <div class="caveat-title masthead-heading">Par Mains Entrecroisées <br>Sur Le Tambourin De l'Âme.</div>
+                <div class="caveat-title masthead-subheading">Accompagnement en thérapie brève ericksonnienne, hypnose clinique, approche psychocorporelle et massages mieux-être.</div>
+                <!--
                 <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
+                -->
             </div>
         </header>
 
@@ -54,17 +60,17 @@
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">THERAPIES</h2>
+                    <h2 class="section-heading">Thérapies...</h2>
                 </div>
                 <div class="row">
-                    <div class="col-lg-6 col-sm-6 mb-4">
+                    <div class="col-lg-3 col-sm-6 mb-4">
                         <!-- Portfolio item 1-->
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/nature40.JPG" alt="..." />
+                                <img class="img-fluid pf_pictures" src="assets/img/nature40.JPG" alt="..." />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Thérapie Brève Ericksonnienne</div>
@@ -72,14 +78,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-sm-6 mb-4">
+                    <div class="col-lg-3 col-sm-6 mb-4">
                         <!-- Portfolio item 2-->
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/balloon.jpg" alt="..." />
+                                <img class="img-fluid pf_pictures" src="assets/img/chemin5.JPG" alt="..." />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Hypnose Clinique</div>
@@ -87,29 +93,29 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-sm-6 mb-4 mb-lg-0">
+                    <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
                         <!-- Portfolio item 3 -->
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/nature65.JPG" alt="..." />
+                                <img class="img-fluid pf_pictures" src="assets/img/nature65.JPG" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Approche psychocorporelle</div>
+                                <div class="portfolio-caption-heading">Approche Psychocorporelle</div>
                                 <div class="portfolio-caption-subheading text-muted">Á travers les mains, ce que l’esprit pleure ou chante.</div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-sm-6 mb-4 mb-lg-0">
+                    <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
                         <!-- Portfolio item 3 -->
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/nature21.JPG" alt="..." />
+                                <img class="img-fluid pf_pictures" src="assets/img/nature21.JPG" alt="..." />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Massages</div>
@@ -125,7 +131,7 @@
         <section class="page-section" id="about">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">MASSAGES</h2>
+                    <h2 class="section-heading">Massages...</h2>
                 </div>
                 <ul class="timeline">
                     <li>
@@ -191,11 +197,19 @@
             </div>
         </section>
 
-        <!-- QUI SUIS-JE -->
-        <section class="page-section bg-light" id="team">
+        <!-- TARIFS -->
+        <section class="page-section bg-light" id="services">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Qui Suis-Je?</h2>
+                    <h2 class="section-heading">Tarifs</h2>
+                </div>
+        </section>
+
+        <!-- QUI SUIS-JE -->
+        <section class="page-section" id="team">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading">Qui Suis-Je?</h2>
                     <h3 class="section-subheading text-muted">Quand les mains et l'inconscient parlent...</h3>
                 </div>
                 <div class="row">
@@ -203,7 +217,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
+                            <img class="mx-auto rounded-circle" src="assets/img/silvana.jpg" alt="..." />
                             <h4>Silvana Di Giovanni</h4>
                             <br>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
@@ -212,7 +226,19 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">
+                        Alors que  mon cerveau est toujours en effervescence, mon corps et mon inconscient me disent que j’ai des besoins que je ne respecte pas …débute alors un grand changement vers le respect de qui je suis…
+Merci Sénèque et Jung de me rappeler que la vie : « Ce n’est pas d’attendre que les oranges passent, c’est d’apprendre comment danser sous la pluie » et « Qui regarde dehors rêve, qui regarde à l’intérieur se réveille.»
+Je m’appelle Silvana Di Giovanni.
+Après un parcours d’infirmière en néonatologie, je décide d’enseigner mon métier et je deviens infirmière professeur.  
+Ma reconversion en tant que thérapeute est finalement la continuité de mon métier, je reste dans le soin, mais autrement. 
+Ecouter, entendre, toucher, accompagner dans mon métier m’ont amenée à me former à la thérapie brève Ericksonnienne  et à l’hypnose et je continue de me former auprès du centre prisme formation ® qui est membre de la  CFHTB : Confédération Francophone Belge d’Hypnose et de Thérapie Brève et de l’ESH : European Society of Hypnosis. 
+Ajouter le lien pour aller voir Prisme
+La formation en Relation d’Aide par le Toucher ®. (Ajouter le lien pour aller voir ce qu’est la RAT) m’a séduite par sa complémentarité.
+J’ai obtenu mon diplôme de praticienne en technique de toucher ® et praticienne en massage de détente ® par le centre Espace de ressourcement®, reconnu par la Fédération Française (France) de massages bien-être (FFMBE) et la Fédération Française de Somato-Psychothérapie (FF2S).
+Je suis actuellement en 4éme et dernière année de formation à la méthode de « Relation d’aide par le toucher® » à l’espace de ressourcement, afin d’obtenir le diplôme de somathothérapeuthe. 
+
+                        </p></div>
                 </div>
             </div>
         </section>
@@ -221,8 +247,8 @@
         <section class="page-section" id="contact">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Contactez-moi!</h2>
+                    <h3 class="section-subheading text-muted"></h3>
                 </div>
                 <!-- * * * * * * * * * * * * * * *-->
                 <!-- * * SB Forms Contact Form * *-->
@@ -236,25 +262,25 @@
                         <div class="col-md-6">
                             <div class="form-group">
                                 <!-- Name input-->
-                                <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
+                                <input class="form-control" id="name" type="text" placeholder="Votre Nom *" data-sb-validations="required" />
                                 <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                             </div>
                             <div class="form-group">
                                 <!-- Email address input-->
-                                <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
+                                <input class="form-control" id="email" type="email" placeholder="Votre Email *" data-sb-validations="required,email" />
                                 <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                                 <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                             </div>
                             <div class="form-group mb-md-0">
                                 <!-- Phone number input-->
-                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
+                                <input class="form-control" id="phone" type="tel" placeholder="Votre Téléphone *" data-sb-validations="required" />
                                 <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group form-group-textarea mb-md-0">
                                 <!-- Message input-->
-                                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
+                                <textarea class="form-control" id="message" placeholder="Votre Message *" data-sb-validations="required"></textarea>
                                 <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                             </div>
                         </div>
@@ -282,7 +308,7 @@
             </div>
         </section>
 
-        <!-- FOOTER -->
+        <!-- FOOTER 
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
@@ -299,6 +325,7 @@
                 </div>
             </div>
         </footer>
+        -->
 
         <!-- THERAPY CATALOG MODALS-->
         <!-- Portfolio item 1 modal popup-->
@@ -311,27 +338,16 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Thérapie Brève Ericksonnienne</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase card-in-titles">Thérapie Brève Ericksonnienne</h2>
                                     <!-- <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." /> -->
                                     <p>
                                         La thérapie brève est une approche orientée solutions, conçue pour obtenir des changements à court terme.  Cette approche est pragmatique : grâce à vos compétences et vos ressources, vous construisez des solutions pour réaliser des changements spécifiques. C’est donc une collaboration entre vous et moi, où vous êtes l’expert du contenu et moi, je le guide du processus qui vous aide dans votre chemin. J’associe très souvent l’hypnose à cette thérapie.  
 Lors de la première rencontre, nous négocierons les objectifs et le cadre de suivi pour définir un engagement réciproque, respectueux et réaliste pour votre soutien.
 Ensuite, toute brève que soit cette thérapie, elle nécessite quelques rencontres dont le nombre varie d’une situation à l’autre. 
                                     </p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Threads
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Illustration
-                                        </li>
-                                    </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
-                                        Close Project
+                                        Fermer
                                     </button>
                                 </div>
                             </div>
@@ -350,8 +366,7 @@ Ensuite, toute brève que soit cette thérapie, elle nécessite quelques rencont
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Hypnose Clinique</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase card-in-titles">Hypnose Clinique</h2>
                                     <!-- <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." /> -->
                                     <p>
                                         Par des métaphores, des histoires thérapeutiques, l’hypnose permet des changements. Il n’y a rien à faire, rien à réussir, juste se laisser porter au son de ma voix et se laisser toucher.
@@ -363,19 +378,9 @@ La première séance vise d’une part à cerner votre demande, à fixer un obje
 Une séance dure 60 minutes. La durée spontanée d'un état hypnotique est d’environ 20 minutes, car c'est la durée de l'état modifié de conscience naturel du cycle ultradien (20 minutes toutes les 90 minutes). 
 Cependant, en fonction de vos besoins la séance pourrait être plus longue ou plus courte. A la fin de la séance il sera souhaitable de parler le moins possible pour que le conscient n’influe pas trop le travail de l’inconscient.
                                     </p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Explore
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Graphic Design
-                                        </li>
-                                    </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
-                                        Close Project
+                                        Fermer
                                     </button>
                                 </div>
                             </div>
@@ -394,8 +399,7 @@ Cependant, en fonction de vos besoins la séance pourrait être plus longue ou p
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Approche Psychocorporelle</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase card-in-titles">Approche Psychocorporelle</h2>
                                     <!-- <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg" alt="..." /> -->
                                     <p>
                                         «Les maux du corps sont les mots de l’âme.  
@@ -406,19 +410,9 @@ Cependant, en fonction de vos besoins la séance pourrait être plus longue ou p
                                         Si vous traversez des moments difficiles et que cette approche vous semble adaptée, je vous propose un accompagnement (jusqu’à 12 à 14 séances) au cours duquel nous apprivoiserons les différents outils qui vous permettront de progresser.
 
                                     </p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Finish
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Identity
-                                        </li>
-                                    </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
-                                        Close Project
+                                        Fermer
                                     </button>
                                 </div>
                             </div>
@@ -437,8 +431,7 @@ Cependant, en fonction de vos besoins la séance pourrait être plus longue ou p
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Massages</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase card-in-titles">Massages</h2>
                                     <!-- <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg" alt="..." /> -->
                                     <p>
                                         « Prends soin de ton corps pour que ton âme ait envie d’y rester » Gandhi
@@ -452,19 +445,9 @@ Si vous êtes en bonne santé, vous pouvez recevoir un massage mieux-être.
 Cependant, pour des personnes ayant des pathologies cardiaques, respiratoires, dermatologiques, osseuses ou autres, il est de votre responsabilité de demander l’avis de votre médecin. 
 
                                     </p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Finish
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Identity
-                                        </li>
-                                    </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
-                                        Close Project
+                                        Fermer
                                     </button>
                                 </div>
                             </div>

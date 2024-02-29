@@ -1,0 +1,174 @@
+/*
+
+ FONTS
+
+ <uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 400 to 700
+*/
+
+.bg-light {
+    background-color: #fcf1dc !important;
+}
+
+header {
+    background-image: url("./../assets/img/leafs-bg2.png");
+    padding-top: 150%;
+}
+
+header::before {
+    opacity: 0.2;
+}
+
+#portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;   
+    font-size: 2rem;
+}
+
+.page-section h2.section-heading {
+    font-size: 4rem;
+    margin-top: -2rem;
+    margin-bottom: 4rem;
+}
+
+header.masthead .masthead-heading {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+header.masthead .masthead-subheading {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.section-heading {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+    background-color: #E9EDC9;
+}
+
+#mainNav .navbar-brand img {
+    height: 4rem;
+    transition: height 0.3s ease-in-out;
+    margin: -1rem;
+}
+
+#mainNav, #mainNav.navbar-shrink {
+    background-color: #abb881;
+}
+
+#mainNav.navbar-shrink .navbar-brand img {
+    height: 3rem;
+    margin: -1rem;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #f7bb43;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #f7bb43;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color: #f7bb43;
+}
+
+.pf_pictures {
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+    border-radius: 2%;
+    background-color: #E9EDC9;
+    border-bottom-left-radius: 4%;
+    border-bottom-right-radius: 4%;
+}
+
+.masthead-heading, .masthead-subheading {
+    color: #e9edd5;
+}
+
+.portfolio-item.img-fluid {
+    border-radius: 50%;
+}
+
+.timeline > li .timeline-image {
+    border: 7px solid #abb881;
+}
+
+.timeline:before {
+    background-color: #abb881;
+    width: 4px;
+    margin-left: -2px;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    background: #abb881BB; 
+}
+
+.subheading {
+    font-family: 'Caveat';
+    font-size: 2.5rem;
+}
+
+.card-in-titles {
+    font-family: 'Caveat';
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #abb881;
+  --bs-btn-border-color: #abb881;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #d9aa00;
+  --bs-btn-hover-border-color: #cca000;
+  --bs-btn-focus-shadow-rgb: 255, 208, 38;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #cca000;
+  --bs-btn-active-border-color: #bf9600;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #ffc800;
+  --bs-btn-disabled-border-color: #ffc800;
+}
