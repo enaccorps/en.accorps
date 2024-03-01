@@ -15,8 +15,39 @@ header {
     padding-top: 150%;
 }
 
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+#portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    font-variation-settings: "wdth" 100;
+
+}
+
+.my-3.sceances-title {
+    font-size: 1.5rem;
+}
+
+.portfolio-modal .modal-content h2 {
+    font-size: 2rem;
+}
+
 header::before {
     opacity: 0.2;
+}
+
+.my-3 {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
 }
 
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
