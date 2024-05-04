@@ -1302,6 +1302,10 @@ progress {
     flex: 0 0 auto;
     width: 66.66666667%;
   }
+  .col-lg-8b {
+    flex: 0 0 auto;
+    width: 100%;
+  }
   .col-lg-9 {
     flex: 0 0 auto;
     width: 75%;
