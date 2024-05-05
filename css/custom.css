@@ -31,8 +31,14 @@ body {
 }
 
 .my-3.sceances-title {
+    font-size: 2.5rem;
+}
+
+.my-3.seances-days {
     font-size: 1.5rem;
 }
+
+
 
 .portfolio-modal .modal-content h2 {
     font-size: 2rem;
