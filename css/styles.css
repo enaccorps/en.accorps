@@ -247,6 +247,7 @@ sup {
 
 a {
   color: var(--bs-link-color);
+  color: #d29116;
   text-decoration: underline;
 }
 a:hover {
@@ -11269,7 +11270,7 @@ header.masthead .masthead-heading {
 }
 
 section#contact {
-  background-color: #212529;
+  background-color: #3d4f42;
   /*
   background-image: url("../assets/img/map-image.png");
   */
