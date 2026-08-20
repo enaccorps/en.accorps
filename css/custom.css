@@ -292,18 +292,101 @@ body {
     border-radius: 50%;
 }
 
-.timeline > li .timeline-image {
-    border: 7px solid #abb881;
+.portfolio-modal .timeline {
+    position: relative;
+    padding: 0;
+    list-style: none;
 }
 
-.timeline:before {
+.portfolio-modal .timeline:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 45px !important;
+    width: 3px !important;
+    margin-left: 0 !important;
+    background-color: rgba(171, 184, 129, 0.4) !important;
+}
+
+.portfolio-modal .timeline > li {
+    position: relative;
+    min-height: 90px;
+    margin-bottom: 2.5rem;
+    padding-left: 110px !important;
+    padding-right: 0 !important;
+    text-align: left !important;
+}
+
+.portfolio-modal .timeline > li .timeline-image {
+    position: absolute;
+    top: 0;
+    left: 0 !important;
+    width: 90px !important;
+    height: 90px !important;
+    margin-left: 0 !important;
+    border: 4px solid #abb881 !important;
+    border-radius: 100% !important;
+    background-color: #ffffff;
+    box-shadow: 0 4px 14px rgba(60, 72, 45, 0.12);
+    z-index: 2;
+}
+
+.portfolio-modal .timeline > li .timeline-panel,
+.portfolio-modal .timeline > li.timeline-inverted > .timeline-panel {
+    float: none !important;
+    width: 100% !important;
+    padding: 0.5rem 0 0 1rem !important;
+    text-align: left !important;
+}
+
+.portfolio-modal .timeline > li .timeline-panel:before,
+.portfolio-modal .timeline > li .timeline-panel:after,
+.portfolio-modal .timeline > li.timeline-inverted > .timeline-panel:before,
+.portfolio-modal .timeline > li.timeline-inverted > .timeline-panel:after {
+    display: none !important;
+}
+
+.portfolio-modal .timeline-body p {
+    font-size: 0.98rem;
+    line-height: 1.7;
+    color: #4f5744 !important;
+    margin-bottom: 0;
+}
+
+/* Subtle & elegant bullet list styling inside modals */
+.portfolio-modal .modal-bullet-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0.85rem 0 1.1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.portfolio-modal .modal-bullet-list li {
+    position: relative;
+    padding-left: 1.35rem;
+    font-size: 0.94rem;
+    line-height: 1.55;
+    color: #4f5744;
+}
+
+.portfolio-modal .modal-bullet-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.55rem;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
     background-color: #abb881;
-    width: 4px;
-    margin-left: -2px;
+    opacity: 0.85;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
-    background: #abb881BB; 
+.portfolio-modal .timeline-heading .subheading {
+    font-size: 1.75rem;
+    color: #647535 !important;
+    margin-bottom: 0.35rem;
 }
 
 .subheading {
@@ -313,8 +396,9 @@ body {
 
 .card-in-titles {
     font-family: 'Caveat';
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+    color: #2b331f;
 }
 
 
