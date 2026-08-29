@@ -532,9 +532,10 @@ body {
     opacity: 0.85;
 }
 
-.portfolio-modal .timeline-heading .subheading {
-    font-size: 1.75rem;
-    color: #647535 !important;
+.portfolio-modal .timeline-heading .subheading,
+.portfolio-modal .timeline-body .subheading {
+    font-size: 1.5rem;
+    color: #abb881 !important;
     margin-bottom: 0.35rem;
 }
 
