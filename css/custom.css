@@ -10,6 +10,14 @@
     background-color: #fcf1dc !important;
 }
 
+section#contact {
+    background-color: #E9EDC9 !important;
+}
+
+section#contact .section-heading {
+    color: #2b331f !important;
+}
+
 header.masthead {
     background-image: url("./../assets/img/leafs-bg2.png");
     background-size: cover;
@@ -280,8 +288,6 @@ body {
     background: #f7bb43;
     color: #ffffff;
     transform: translateX(3px);
-}
-    color: #f7bb43;
 }
 
 .masthead-heading, .masthead-subheading {
